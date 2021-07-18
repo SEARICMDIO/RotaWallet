@@ -1,0 +1,36 @@
+---
+title: Page not found
+icon: /assets/images/404img.svg
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+    {% include head.html %}
+
+<body>
+    <img class="logo"
+        src="{% if page.icon %}{{page.icon | relative_url}}{% else %}{{site.data.referrals.icon | relative_url}}{% endif %}"
+        alt="logo">
+
+    <div class="links">
+    
+    <h2>Lost?</h2>
+    <p>The requested page could not be found.</p>
+    <h6>Check the list of Vaults</h6>
+    
+    <div class="links__item">
+        <a class="links__item links__item--light-canyan" href="{{ site.url }}">{{site.title}}</a>
+    </div>X
+    {% for wallet in site.subwallet %}
+    <div class="links__item">
+        <a class="links__item links__item--mediumlight-yellow" href="{{wallet.url}}">{{wallet.title}}</a>
+    </div>
+    {% endfor %}
+</div>
+    <h2>Follow Us On</h2>
+    {% include site_social.html %}
+    <h6>@{% if page.title %}{{page.title}}{% else %}{{site.footer_credit}}{% endif %} <> <a href="https://zeospec.com"
+                target="_blank" style="text-decoration: none; color: black;">ZeoSpec</a></h6>
+</body>
+</html>

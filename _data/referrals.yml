@@ -1,0 +1,16 @@
+background: /assets/images/imagelink2-min.png
+icon: /assets/images/logo.png
+social:
+  website: ""
+  medium: ""
+  linkedin: ""
+  instagram: "https://www.instagram.com/searicmdio/"
+  facebook: "https://www.facebook.com/searicmdio/"
+  twitter: ""
+  youtube: ""
+urls:
+  - title: ZeoSpec
+    url: https://zeospec.com/
+    color: medium-magenta
+body:
+

@@ -1,0 +1,36 @@
+<div class="channels">
+        {% if site.data.referrals.social.website != "" %}
+        <a class="channels__item" href="{{site.data.referrals.social.website}}" target="_blank"><img
+                        src="{{ "assets/images/icon/www.png" | relative_url }}" alt="website" width=40 height=40></a>
+        {% endif %}
+        {% if site.data.referrals.social.medium != "" %}
+        <a class="channels__item" href="{{site.data.referrals.social.medium}}" target="_blank"><img
+                        src="{{ "assets/images/icon/mediumblog.png" | relative_url }}" alt="blog" width=40
+                        height=40></a>
+        {% endif %}
+        {% if site.data.referrals.social.linkedin != "" %}
+        <a class="channels__item" href="{{site.data.referrals.social.linkedin}}" target="_blank"><img
+                        src="{{ "assets/images/icon/linkedin.png" | relative_url }}" alt="linkedin" width=40
+                        height=40></a>
+        {% endif %}
+        {% if site.data.referrals.social.instagram != "" %}
+        <a class="channels__item" href="{{site.data.referrals.social.instagram}}" target="_blank"><img
+                        src="{{ "assets/images/icon/instagram.png" | relative_url }}" alt="instagram" width=40
+                        height=40></a>
+        {% endif %}
+        {% if site.data.referrals.social.facebook != "" %}
+        <a class="channels__item" href="{{site.data.referrals.social.facebook}}" target="_blank"><img
+                        src="{{ "assets/images/icon/facebook.png" | relative_url }}" alt="facebook" width=40
+                        height=40></a>
+        {% endif %}
+        {% if site.data.referrals.social.twitter != "" %}
+        <a class="channels__item" href="{{site.data.referrals.social.twitter}}" target="_blank"><img
+                        src="{{ "assets/images/icon/twitter.png" | relative_url }}" alt="twitter" width=40
+                        height=40></a>
+        {% endif %}
+        {% if site.data.referrals.social.youtube != "" %}
+        <a class="channels__item" href="{{site.data.referrals.social.youtube}}" target="_blank"><img
+                        src="{{ "assets/images/icon/youtube.png" | relative_url }}" alt="youtube" width=40
+                        height=40></a>
+        {% endif %}
+</div>

@@ -1,0 +1,16 @@
+
+    {% if page.urls %}
+    {% for link in page.urls %}
+    <div class="links__item">
+        <a class="links__item links__item--{{link.color}}" href="{{link.url}}"
+            target="_blank">{{link.title}}</a>
+    </div>
+    {% endfor %}
+    {% else %}
+    {% for link in site.data.referrals.urls %}
+    <div class="links__item">
+        <a class="links__item links__item--{{link.color}}" href="{{link.url}}"
+            target="_blank">{{link.title}}</a>
+    </div>
+    {% endfor %}
+    {% endif %}

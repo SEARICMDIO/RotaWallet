@@ -1,0 +1,14 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %} - RotaWallet</title>
+<meta name="description" content="The Wallet for links from {% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}">
+<link rel="icon" href="{% if page.icon %}{{page.icon | relative_url}}{% else %}{{site.data.referrals.icon | relative_url}}{% endif %}" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}" />
+
+{% include analytics.html %}
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>

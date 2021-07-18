@@ -1,0 +1,100 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (master by default)
+  squash_merges: true
+
+# This line should *not* be indented
+# publish_mode: editorial_workflow
+
+media_folder: "assets/images/uploads/" # Folder where user uploaded files should go
+site_url: https://rotawallet.searic.org/
+display_url: rotawallet.searic.org
+logo_url: https://rotawallet.searic.org/assets/images/markofexcellence.png
+
+collections: # A list of collections the CMS should be able to edit 
+  - label: "RotaWallet - SEARIC MDIO"
+    name: "rotawallet"
+    files:
+      - label: "RotaWallet - SEARIC MDIO"
+        name: "wallet"
+        file: "_data/referrals.yml"
+        fields:
+          - {label: "Wallet Background Image", name: "background", widget: "image", required: false}
+          - {label: "Wallet Logo", name: "icon", widget: "image", required: false}
+          - label: Social Media Links
+            name: social
+            widget: object
+            fields:
+              - {label: "District Website Link", name: "website", widget: "string", default: "", required: false}
+              - {label: "Medium Profile Link", name: "medium", widget: "string", default: "", required: false}
+              - {label: "Linkedin Profile Link", name: "linkedin", widget: "string", default: "", required: false}
+              - {label: "Instagram Profile Link", name: "instagram", widget: "string", default: "", required: false}
+              - {label: "Facebook Page/Profile Link", name: "facebook", widget: "string", default: "", required: false}
+              - {label: "Twitter Handle Link", name: "twitter", widget: "string", default: "", required: false}
+              - {label: "Youtube Channel Link", name: "youtube", widget: "string", default: "", required: false}
+          - label: Referral Links
+            name: urls
+            widget: list
+            fields:
+              - {label: "Title", name: "title", widget: "string", default: ""}
+              - {label: "URL", name: "url", widget: "string", default: ""}
+              - label: "Select the Background Color"
+                name: "color"
+                widget: "select"
+                options:
+                  - { label: "Light Red", value: "light-red" }
+                  - { label: "Medium Light Red", value: "mediumlight-red" }
+                  - { label: "Extra Light Canyan", value: "verylight-canyan" }
+                  - { label: "Light Canyan", value: "light-canyan" }
+                  - { label: "Medium Light Green Canyan", value: "mediumlight-green-canyan" }
+                  - { label: "Medium Light Brown", value: "mediumlight-brown" }
+                  - { label: "Medium Light Yellow", value: "mediumlight-yellow" }
+                  - { label: "Light Gray Blue", value: "lightgrayish-blue" }
+                  - { label: "Soft Green", value: "soft-green" }
+                  - { label: "Extra Light Gray", value: "verylight-gray" }
+                  - { label: "Medium Megenta", value: "medium-magenta" }
+          - {label: "Brief", name: "body", widget: "markdown"}
+  - label: "Sub Wallet" 
+    name: "subwallet" 
+    folder: "_subwallet"
+    create: true # Allow users to create new documents in this collection
+    slug: "{{username}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Username (No Spaces, Used only while creating New Vault)", name: "username", widget: "string"}
+      - {label: "Wallet Full Name", name: "title", widget: "string"}
+      - {label: "Wallet Background Image", name: "background", widget: "image", required: false}
+      - {label: "Wallet Logo", name: "icon", widget: "image", required: false}
+      - label: Wallet Social Media Links
+        name: social
+        widget: object
+        fields:
+          - {label: "Wallet Website Link", name: "website", widget: "string", default: "", required: false}
+          - {label: "Wallet Medium Profile Link", name: "medium", widget: "string", default: "", required: false}
+          - {label: "Wallet Linkedin Profile Link", name: "linkedin", widget: "string", default: "", required: false}
+          - {label: "Wallet Instagram Profile Link", name: "instagram", widget: "string", default: "", required: false}
+          - {label: "Wallet Facebook Page/Profile Link", name: "facebook", widget: "string", default: "", required: false}
+          - {label: "Wallet Twitter Handle Link", name: "twitter", widget: "string", default: "", required: false}
+          - {label: "Culb Youtube Channel Link", name: "youtube", widget: "string", default: "", required: false}
+      - label: Wallet Referral Links
+        name: urls 
+        widget: list
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: ""}
+          - {label: "URL", name: "url", widget: "string", default: ""}
+          - label: "Select the Background Color"
+            name: "color"
+            widget: "select"
+            options:
+              - { label: "Light Red", value: "light-red" }
+              - { label: "Medium Light Red", value: "mediumlight-red" }
+              - { label: "Extra Light Canyan", value: "verylight-canyan" }
+              - { label: "Light Canyan", value: "light-canyan" }
+              - { label: "Medium Light Green Canyan", value: "mediumlight-green-canyan" }
+              - { label: "Medium Light Brown", value: "mediumlight-brown" }
+              - { label: "Medium Light Yellow", value: "mediumlight-yellow" }
+              - { label: "Light Gray Blue", value: "lightgrayish-blue" }
+              - { label: "Soft Green", value: "soft-green" }
+              - { label: "Extra Light Gray", value: "verylight-gray" }
+              - { label: "Medium Megenta", value: "medium-magenta" }
+      - {label: "Brief", name: "body", widget: "markdown", required: false}

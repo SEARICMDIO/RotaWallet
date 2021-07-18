@@ -1,0 +1,52 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+{% if page.url == "/" and site.data.referrals.background != "" %}
+<body style="background-image: url({{site.baserul}}{{site.data.referrals.background}});">
+{% elsif page.url != "/" and page.background != "" %}
+<body style="background-image: url({{site.baserul}}{{page.background}});">
+{% else %}
+<body>
+{% endif %}
+
+    <img class="logo"
+        src="{% if page.icon %}{{page.icon | relative_url}}{% else %}{{site.data.referrals.icon | relative_url}}{% endif %}"
+        alt="logo">
+    <div class="links">
+    
+    {% if page.url == "/" %}
+
+    {{site.data.referrals.body | markdownify}}
+    
+    {% else %}
+    
+    {{ content }}
+
+    {% endif %}        
+        {% include links.html %}
+    </div>
+    
+    <h2>Follow Us On</h2>
+    {% include social.html %}
+    <h6>@{% if page.title %}{{page.title}}{% else %}{{site.footer_credit}}{% endif %} <> <a href="https://zeospec.com"
+                target="_blank" style="text-decoration: none; color: black;">ZeoSpec</a></h6>
+
+<script>
+    if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', function(user) {
+    if (!user) {
+    window.netlifyIdentity.on('login', function() {
+    document.location.href = '/admin/';
+    });
+    }
+    });
+    }
+</script>
+</body>
+
+</html>
