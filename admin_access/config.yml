@@ -65,7 +65,7 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
-      - {label: "Username (No Spaces, Used only while creating New Vault)", name: "username", widget: "string"}
+      - {label: "Username (No Spaces, Used only while creating New Wallet)", name: "username", widget: "string"}
       - {label: "Wallet Full Name", name: "title", widget: "string"}
       - {label: "Wallet Background Image", name: "background", widget: "image", required: false}
       - {label: "Wallet Logo", name: "icon", widget: "image", required: false}
