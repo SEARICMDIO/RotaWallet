@@ -1,6 +1,6 @@
 ---
 layout: default
-username: test
+username: main
 title: Test Wallet
 background: /assets/images/uploads/imagelink2-min.png
 icon: /assets/images/uploads/1969261_836258546390230_707885145_n.jpeg
