@@ -9,7 +9,7 @@ backend:
 media_folder: "assets/images/uploads/" # Folder where user uploaded files should go
 site_url: https://rotawallet.searic.org/
 display_url: rotawallet.searic.org
-logo_url: https://rotawallet.searic.org/assets/images/markofexcellence.png
+logo_url: https://rotawallet.searic.org/assets/images/logo.png
 
 collections: # A list of collections the CMS should be able to edit 
   - label: "RotaWallet - SEARIC MDIO"
