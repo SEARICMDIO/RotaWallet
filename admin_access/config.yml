@@ -53,7 +53,7 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: "Soft Green", value: "soft-green" }
                   - { label: "Extra Light Gray", value: "verylight-gray" }
                   - { label: "Medium Megenta", value: "medium-magenta" }
-          - {label: "Brief", name: "body", widget: "markdown"}
+          - {label: "Brief", name: "body", widget: "markdown", required: false}
   - label: "Sub Wallet" 
     name: "subwallet" 
     folder: "_subwallet"
