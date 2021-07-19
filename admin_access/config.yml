@@ -59,6 +59,8 @@ collections: # A list of collections the CMS should be able to edit
     folder: "_subwallet"
     create: true # Allow users to create new documents in this collection
     slug: "{{username}}"
+    editor:
+      preview: false
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Username (No Spaces, Used only while creating New Vault)", name: "username", widget: "string"}
