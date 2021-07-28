@@ -3,13 +3,10 @@ icon: /assets/images/logo.png
 social:
   website: ""
   medium: ""
-  linkedin: ""
+  linkedin: https://www.linkedin.com/company/searic-mdio
   instagram: https://www.instagram.com/searicmdio/
   facebook: https://www.facebook.com/searicmdio/
-  twitter: ""
-  youtube: ""
-urls:
-  - title: ZeoSpec
-    url: https://zeospec.com/
-    color: medium-magenta
+  twitter: https://twitter.com/searicmdio
+  youtube: https://www.youtube.com/SEARICMDIO
+urls: []
 body: null
