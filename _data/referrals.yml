@@ -24,10 +24,13 @@ urls:
   - title: How to make Charter Fee Payment
     url: https://www.instagram.com/searicmdio/
     color: mediumlight-brown
-  - title: Standard Bylaws for Rotaract Club
+  - title: Rotaract Club Recommended Bylaws
     url: https://my.rotary.org/en/document/recommended-rotaract-club-bylaws
     color: mediumlight-yellow
   - title: Rotary Governance Documents
     url: https://my.rotary.org/en/learning-reference/about-rotary/governance-documents
     color: lightgrayish-blue
+  - title: Standard Rotaract Club Constitution
+    url: https://my-cms.rotary.org/en/document/standard-rotaract-club-constitution
+    color: medium-magenta
 body: SEARIC MDIO Initiatives
