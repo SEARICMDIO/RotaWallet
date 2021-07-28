@@ -13,7 +13,7 @@ urls:
     url: https://my.rotary.org/en/document/rotaract-handbook
     color: light-red
   - title: Rotary Code of Policies
-    url: https://www.instagram.com/searicmdio/
+    url: https://my.rotary.org/document/rotary-code-policies
     color: mediumlight-red
   - title: DRR Guidelines/Handbook
     url: https://www.instagram.com/searicmdio/
@@ -27,4 +27,7 @@ urls:
   - title: Standard Bylaws for Rotaract Club
     url: https://www.instagram.com/searicmdio/
     color: mediumlight-yellow
+  - title: Rotary Governance Documents
+    url: https://my.rotary.org/en/learning-reference/about-rotary/governance-documents
+    color: lightgrayish-blue
 body: SEARIC MDIO Initiatives
