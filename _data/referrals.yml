@@ -12,25 +12,28 @@ urls:
   - title: Rotaract Handbook
     url: https://my.rotary.org/en/document/rotaract-handbook
     color: light-red
+  - title: Standard Rotaract Club Constitution
+    url: https://my-cms.rotary.org/en/document/standard-rotaract-club-constitution
+    color: medium-magenta
+  - title: Rotaract Club Recommended Bylaws
+    url: https://my.rotary.org/en/document/recommended-rotaract-club-bylaws
+    color: mediumlight-yellow
   - title: Rotary Code of Policies
     url: https://my.rotary.org/document/rotary-code-policies
     color: mediumlight-red
-  - title: Guide for DRR (District Rotaract Representative)
-    url: https://my.rotary.org/en/document/guide-district-rotaract-representatives
-    color: verylight-canyan
+  - title: Rotary Governance Documents
+    url: https://my.rotary.org/en/learning-reference/about-rotary/governance-documents
+    color: lightgrayish-blue
   - title: How to start a New Rotaract Club
     url: https://www.instagram.com/searicmdio/
     color: light-canyan
   - title: How to make Charter Fee Payment
     url: https://www.instagram.com/searicmdio/
     color: mediumlight-brown
-  - title: Rotaract Club Recommended Bylaws
-    url: https://my.rotary.org/en/document/recommended-rotaract-club-bylaws
-    color: mediumlight-yellow
-  - title: Rotary Governance Documents
-    url: https://my.rotary.org/en/learning-reference/about-rotary/governance-documents
-    color: lightgrayish-blue
-  - title: Standard Rotaract Club Constitution
-    url: https://my-cms.rotary.org/en/document/standard-rotaract-club-constitution
+  - title: Guide for DRR (District Rotaract Representative)
+    url: https://my.rotary.org/en/document/guide-district-rotaract-representatives
+    color: verylight-canyan
+  - title: List of MDIOs (Multi District Information Organizations) across the World
+    url: https://my-cms.rotary.org/en/document/list-rotaract-multidistrict-information-organizations
     color: medium-magenta
 body: SEARIC MDIO Initiatives
