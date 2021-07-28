@@ -8,5 +8,23 @@ social:
   facebook: https://www.facebook.com/searicmdio/
   twitter: https://twitter.com/searicmdio
   youtube: https://www.youtube.com/SEARICMDIO
-urls: []
-body: null
+urls:
+  - title: Rotaract Handbook
+    url: https://www.instagram.com/searicmdio/
+    color: light-red
+  - title: Rotary Code of Policies
+    url: https://www.instagram.com/searicmdio/
+    color: mediumlight-red
+  - title: DRR Guidelines/Handbook
+    url: https://www.instagram.com/searicmdio/
+    color: verylight-canyan
+  - title: How to start a New Rotaract Club
+    url: https://www.instagram.com/searicmdio/
+    color: light-canyan
+  - title: How to make Charter Fee Payment
+    url: https://www.instagram.com/searicmdio/
+    color: mediumlight-brown
+  - title: Standard Bylaws for Rotaract Club
+    url: https://www.instagram.com/searicmdio/
+    color: mediumlight-yellow
+body: SEARIC MDIO Initiatives
