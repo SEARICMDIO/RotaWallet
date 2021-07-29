@@ -38,10 +38,10 @@ urls:
     color: soft-green
   - title: Charter Form to start a New Rotaract Club
     url: https://my.rotary.org/en/document/rotaract-club-certification-form
-    color: light-canyan
+    color: mediumlight-green-canyan
   - title: Guide for a DRR (District Rotaract Representative)
     url: https://my.rotary.org/en/document/guide-district-rotaract-representatives
-    color: verylight-canyan
+    color: soft-green
   - title: Explore Rotary Learning Centre
     url: https://www.youtube.com/watch?v=yOz5hh9FFS0&t=170s
     color: mediumlight-brown
