@@ -18,51 +18,48 @@ urls:
   - title: Rotaract Club Recommended Bylaws
     url: https://my.rotary.org/en/document/recommended-rotaract-club-bylaws
     color: mediumlight-yellow
-  - title: Rotary Code of Policies
-    url: https://my.rotary.org/document/rotary-code-policies
-    color: mediumlight-red
-  - title: Rotary Governance Documents
-    url: https://my.rotary.org/en/learning-reference/about-rotary/governance-documents
+  - title: RI Policies related to Rotaract
+    url: https://my.rotary.org/en/document/policy-related-rotaract
+    color: mediumlight-brown
+  - title: "How to create a My Rotary Account "
+    url: https://www.youtube.com/watch?v=jfifoSy35Bw
+    color: mediumlight-green-canyan
+  - title: How to add/update Club Members Data on rotary.org
+    url: https://www.youtube.com/watch?v=2XIwHmnprhg
+    color: verylight-canyan
+  - title: How to update Projects on Rotary Showcase
+    url: https://www.youtube.com/watch?v=6V372JyWo-E
     color: lightgrayish-blue
+  - title: How to update Incoming Club Officers on rotary.org
+    url: https://www.youtube.com/watch?v=x9dV_Nc20AE
+    color: light-canyan
+  - title: How to access Worldwide Rotaract Directory
+    url: https://www.youtube.com/watch?v=cp1J9GY9Vfc
+    color: soft-green
   - title: Charter Form to start a New Rotaract Club
     url: https://my.rotary.org/en/document/rotaract-club-certification-form
     color: light-canyan
   - title: Guide for a DRR (District Rotaract Representative)
     url: https://my.rotary.org/en/document/guide-district-rotaract-representatives
     color: verylight-canyan
-  - title: List of MDIOs (Multi District Information Organizations) across the World
-    url: https://my-cms.rotary.org/en/document/list-rotaract-multidistrict-information-organizations
-    color: medium-magenta
-  - title: How to access Worldwide Rotaract Directory
-    url: https://www.youtube.com/watch?v=cp1J9GY9Vfc
-    color: soft-green
   - title: Explore Rotary Learning Centre
     url: https://www.youtube.com/watch?v=yOz5hh9FFS0&t=170s
     color: mediumlight-brown
-  - title: How to update completed projects on Rotary Showcase
-    url: https://www.youtube.com/watch?v=6V372JyWo-E
-    color: lightgrayish-blue
-  - title: "How to create a My Rotary Account "
-    url: https://www.youtube.com/watch?v=jfifoSy35Bw
-    color: mediumlight-green-canyan
-  - title: How to update Incoming Club Officers on rotary.org
-    url: https://www.youtube.com/watch?v=x9dV_Nc20AE
-    color: light-canyan
-  - title: How to update projects on Rotary Showcase
-    url: https://www.youtube.com/watch?v=6V372JyWo-E&t=12s
-    color: lightgrayish-blue
-  - title: How to add/update Club Members Data on rotary.org
-    url: https://www.youtube.com/watch?v=2XIwHmnprhg
-    color: verylight-canyan
   - title: How to access the Rotary Brand Center
     url: https://www.youtube.com/watch?v=JGQF-LwLKAA
     color: mediumlight-green-canyan
   - title: Worldwide Rotary Zones and their Districts (List & Map)
     url: https://my.rotary.org/en/download-latest-ri-zone-structure
     color: mediumlight-brown
-  - title: RI Policies related to Rotaract
-    url: https://my.rotary.org/en/document/policy-related-rotaract
-    color: mediumlight-brown
+  - title: List of MDIOs (Multi District Information Organizations) across the World
+    url: https://my-cms.rotary.org/en/document/list-rotaract-multidistrict-information-organizations
+    color: medium-magenta
+  - title: Rotary Code of Policies
+    url: https://my.rotary.org/document/rotary-code-policies
+    color: mediumlight-red
+  - title: Rotary Governance Documents
+    url: https://my.rotary.org/en/learning-reference/about-rotary/governance-documents
+    color: lightgrayish-blue
 body: "**Rota Wallet** is an initiative of **SEARIC MDIO** (*S*outh *E*ast
   *A*sia *R*otaract *I*nformation *C*entre) to help everyone understand Rotaract
   better :)"
