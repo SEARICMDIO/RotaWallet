@@ -57,6 +57,9 @@ urls:
   - title: How to access the Rotary Brand Center
     url: https://www.youtube.com/watch?v=JGQF-LwLKAA
     color: mediumlight-green-canyan
+  - title: Worldwide Rotary Zones and their Districts
+    url: https://my.rotary.org/en/document/zone-structure-list
+    color: mediumlight-brown
 body: "**Rota Wallet** is an initiative of **SEARIC MDIO** (*S*outh *E*ast
   *A*sia *R*otaract *I*nformation *C*entre) to help everyone understand Rotaract
   better :)"
