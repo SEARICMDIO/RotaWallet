@@ -11,10 +11,10 @@ social:
 urls:
   - title: Rotaract Handbook
     url: https://my.rotary.org/en/document/rotaract-handbook
-    color: light-red
+    color: mediumlight-yellow
   - title: Standard Rotaract Club Constitution
     url: https://my-cms.rotary.org/en/document/standard-rotaract-club-constitution
-    color: medium-magenta
+    color: mediumlight-brown
   - title: Rotaract Club Recommended Bylaws
     url: https://my.rotary.org/en/document/recommended-rotaract-club-bylaws
     color: mediumlight-yellow
