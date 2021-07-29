@@ -44,22 +44,22 @@ urls:
     color: soft-green
   - title: Explore Rotary Learning Centre
     url: https://www.youtube.com/watch?v=yOz5hh9FFS0&t=170s
-    color: mediumlight-brown
+    color: mediumlight-green-canyan
   - title: How to access the Rotary Brand Center
     url: https://www.youtube.com/watch?v=JGQF-LwLKAA
-    color: mediumlight-green-canyan
+    color: medium-magenta
   - title: Worldwide Rotary Zones and their Districts (List & Map)
     url: https://my.rotary.org/en/download-latest-ri-zone-structure
-    color: mediumlight-brown
+    color: mediumlight-red
   - title: List of MDIOs (Multi District Information Organizations) across the World
     url: https://my-cms.rotary.org/en/document/list-rotaract-multidistrict-information-organizations
-    color: medium-magenta
+    color: light-red
   - title: Rotary Code of Policies
     url: https://my.rotary.org/document/rotary-code-policies
     color: mediumlight-red
   - title: Rotary Governance Documents
     url: https://my.rotary.org/en/learning-reference/about-rotary/governance-documents
-    color: lightgrayish-blue
+    color: light-red
   - title: Contact Us for any Feedback or Suggestions :)
     url: https://forms.gle/y7cdWGrSvLcMhmzGA
     color: lightgrayish-blue
