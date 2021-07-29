@@ -60,6 +60,9 @@ urls:
   - title: Worldwide Rotary Zones and their Districts (List & Map)
     url: https://my.rotary.org/en/download-latest-ri-zone-structure
     color: mediumlight-brown
+  - title: RI Policies related to Rotaract
+    url: https://my.rotary.org/en/document/policy-related-rotaract
+    color: mediumlight-brown
 body: "**Rota Wallet** is an initiative of **SEARIC MDIO** (*S*outh *E*ast
   *A*sia *R*otaract *I*nformation *C*entre) to help everyone understand Rotaract
   better :)"
